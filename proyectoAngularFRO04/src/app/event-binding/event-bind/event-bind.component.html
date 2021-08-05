@@ -1,0 +1,11 @@
+<h1>Añadir servicio</h1>
+<form (submit)="agregarServicio(nuevoServicio)">
+  <input type="text" #nuevoServicio />
+  <button>Añadir servicio</button>
+</form>
+
+<ul>
+  <li *ngFor="let servicio of servicios">
+    {{ servicio }}
+  </li>
+</ul>

@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PerfilComponent } from './perfil/perfil.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    PerfilComponent
+  ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    
+  ], exports:[ PerfilComponent]
 })
 export class PerfilPersonalModule { }

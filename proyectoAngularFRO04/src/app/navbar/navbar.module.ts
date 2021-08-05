@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ServicioComponent } from './servicio/servicio.component';
+import { NavComponent } from './nav/nav.component';
 
 
 
 @NgModule({
   declarations: [
-    ServicioComponent
+    NavComponent
   ],
   imports: [
     CommonModule
+  ], exports:[
+    NavComponent
   ]
 })
-export class ServiciosModule { }
+export class NavbarModule { }

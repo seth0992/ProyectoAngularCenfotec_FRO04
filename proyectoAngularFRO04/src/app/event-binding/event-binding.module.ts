@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BannerComponent } from './banner/banner.component';
+import { EventBindComponent } from './event-bind/event-bind.component';
 
 
 
 @NgModule({
   declarations: [
-    BannerComponent
+    EventBindComponent
   ],
   imports: [
     CommonModule
   ],exports:[
-    BannerComponent
+    EventBindComponent
   ]
 })
-export class HeroBannerModule { }
+export class EventBindingModule { }
